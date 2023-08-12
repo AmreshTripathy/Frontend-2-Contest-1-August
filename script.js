@@ -26,12 +26,17 @@ let arr = [
   function removeAdmin() {
     //Write your code here, just console.log
     
+    console.log('Deleted admin are : ')
     for (let i = 0; i < arr.length; i++) {
         if(arr[i].profession == 'admin') {
             console.log(arr[i]);
             arr.splice(i,1);
         }
     }
+
+    console.log('Updated array');
+    console.log(arr);
+
   }
   
   function concatenateArray() {
